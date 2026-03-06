@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entorno virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Variables de entorno (contienen hashes de contraseñas y JWT secret)
+.env
+.env.local
+.env.production
+!.env.example
+
+# Programas standalone sensibles (no subir al repo)
+tools/
+
+# Datos runtime (HDF5, logs, snapshots)
+services/h5_data/
+logs/*.log
+tools/snapshots/
+services/snapshots/
+services/daq_output.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
