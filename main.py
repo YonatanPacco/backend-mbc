@@ -53,6 +53,8 @@ ALLOWED_ORIGINS = [
     "http://127.0.0.1:4322",
     "http://127.0.0.1:3000",
     "http://192.168.1.4:4321",
+    "https://mbcpredictive.com",   # Producción
+    "https://www.mbcpredictive.com",
 ]
 
 app.add_middleware(
